@@ -24,4 +24,4 @@ This project is designed to build web application that scrapes various websites 
 - [Galaxy Facts: Mars](https://galaxyfacts-mars.com/)
 
 ## Contact
-[Lauren To:](laurenemilyto@gmail.com)
+[Lauren To: laurenemilyto@gmail.com](laurenemilyto@gmail.com)
