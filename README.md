@@ -1,7 +1,7 @@
-<img src="https://user-images.githubusercontent.com/75763314/132150294-87b113dc-8825-4e65-8e9a-dfab1c04f220.png" width=300 align=center> <br>
+<img src="https://cdn.mos.cms.futurecdn.net/Yhn4gzhV7foeYV89UNK6zM-1024-80.jpg.webp" width=640 align=center> <br>
 
 ## About This Project
-This project scrapes a news site using BeautifulSoup, Pandas, and Requests/Splinter. MongoDB was then used with Flask to display results on an HTML page.
+This project is designed to build web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
 
 ## Technologies & Methods
 - BeautifulSoup
@@ -20,4 +20,4 @@ This project scrapes a news site using BeautifulSoup, Pandas, and Requests/Splin
 ## Source Data
 
 ## Contact
-
+[Lauren To:](laurenemilyto@gmail.com)
