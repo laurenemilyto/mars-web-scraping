@@ -9,7 +9,7 @@ This project is designed to build web application that scrapes various websites 
 - Requests/Splinter
 - MongoDB 
 - Flask
-- Bootstrap
+- Bootstrap/HTML
 
 ## Preview
 
