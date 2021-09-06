@@ -4,7 +4,7 @@
 This project is designed to build web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. MongoDB is used with Flask to deploy results to an HTML page.
 
 ## Technologies & Methods
-- BeautifulSoup
+- Beautiful Soup
 - Pandas
 - Requests/Splinter
 - MongoDB 
