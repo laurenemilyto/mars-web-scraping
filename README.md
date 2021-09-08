@@ -20,7 +20,6 @@ This project is designed to build web application that scrapes various websites 
 ## Source Data
 - [Mars Planet Science](https://redplanetscience.com/)
 - [Jet Propulsion Labratory Mars Image](https://spaceimages-mars.com/)
-- Mars Weather twitter account
 - [Galaxy Facts: Mars](https://galaxyfacts-mars.com/)
 
 ## Contact
