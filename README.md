@@ -26,6 +26,7 @@ Preview of '/scrape' function from scrape_mars.py:
 ## Results
 
 
+<<<<<<< HEAD
 ## How to Run This Application
 1. Ensure Flask is installed in the virtual environment: 'python -m pip install flask'.
 2. Clone this repository. The folder should be saved on your local machine.
@@ -34,6 +35,12 @@ Preview of '/scrape' function from scrape_mars.py:
 5. To open your default browser to the rendered page, Ctrl+click the http://127.0.0.1:5000/ URL in the terminal.
 6. On the webpage, click 'Scrape New Data' button to generate a new set of mars news headlines and images.
 
+=======
+## Source Data
+- [Mars Planet Science](https://redplanetscience.com/)
+- [Jet Propulsion Labratory Mars Image](https://spaceimages-mars.com/)
+- [Galaxy Facts: Mars](https://galaxyfacts-mars.com/)
+>>>>>>> 98c941624f72cc608a867c9ac8ec045093579832
 
 ## Contact
 Lauren To: [laurenemilyto@gmail.com](laurenemilyto@gmail.com)
