@@ -23,8 +23,8 @@ This project builds web application that scrapes various websites for data relat
 Preview of '/scrape' function from scrape_mars.py:
 <br>
 <br>
-<img src="https://i.pinimg.com/originals/ce/34/55/ce345585ddc7d30437d6ff24d96ddbb0.jpg" width=400 align=left> <br>
-<br>
+<img src="https://i.pinimg.com/originals/ce/34/55/ce345585ddc7d30437d6ff24d96ddbb0.jpg" width=400 align=center> <br>
+
 
 ## Results
 Insert image here
@@ -38,5 +38,6 @@ Insert image here
 5. To open your default browser to the rendered page, Ctrl+click the http://127.0.0.1:5000/ URL in the terminal.
 6. On the webpage, click 'Scrape New Data' button to generate a new set of mars news headlines and images.
 <br>
+
 ## Contact
 Lauren To: [laurenemilyto@gmail.com](laurenemilyto@gmail.com)
