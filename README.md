@@ -22,10 +22,12 @@ This project builds web application that scrapes various websites for data relat
 ## Preview
 Preview of '/scrape' function from scrape_mars.py:
 <br>
-<img src="https://i.pinimg.com/originals/ce/34/55/ce345585ddc7d30437d6ff24d96ddbb0.jpg" width=300 align=left>
+<br>
+<img src="https://i.pinimg.com/originals/ce/34/55/ce345585ddc7d30437d6ff24d96ddbb0.jpg" width=400 align=left> <br>
 <br>
 
 ## Results
+Insert image here
 <br>
 
 ## How to Run This Application
