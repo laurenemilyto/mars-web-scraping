@@ -10,6 +10,7 @@ def scrape():
     # Set up Splinter
     executable_path = {'executable_path': ChromeDriverManager().install()}
     browser = Browser('chrome', **executable_path, headless=False)
+    
 ## NASA Mars News
     # NASA Mars News URL of page to be scraped
     news_url = "https://redplanetscience.com/"

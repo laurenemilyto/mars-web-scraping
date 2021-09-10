@@ -9,16 +9,20 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
   <div class="container">
+
       <!-- Jumbotron  -->
     <div class="jumbotron text-center">
-      <h1 class="font-weight-bold text-center">Mission to Mars</h1>
+      <h1 class="font-weight-bold">Mission to Mars</h1>
       <br>
-      <p><a class="btn btn-primary btn-md" href="../scrape" role="button">Scrape New Data</a></p>
+      <h6 class="btn btn-primary" href="../scrape" role="button">Scrape New Data</h6>
     </div>
+
       <!-- Mars News -->
     <div class="row">
       <div class="col-md-12">
@@ -33,6 +37,7 @@
       </div>
     </div>
   <hr>
+  
         <!-- JPL Image -->
     <div class="row">
       <div class="col-md-8">
@@ -68,7 +73,7 @@
                     </div>
 
                     <div>
-                      <h4> {{i.title}} </h4>  
+                      <h5> {{i.title}} </h5>  
                     </div>
             
               </div>
@@ -76,9 +81,9 @@
     </div> 
   <hr>
 <!-- Boostrap Javascript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
