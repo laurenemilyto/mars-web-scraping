@@ -24,10 +24,12 @@ Web Application: <br>
 ## Preview
 Preview of '/scrape' function from scrape_mars.py:
 <br>
+<br>
 <img src="https://i.pinimg.com/originals/ce/34/55/ce345585ddc7d30437d6ff24d96ddbb0.jpg" width=400 align=center> <br>
 
 ## Flask App
-A screenshot of the web application in Flask: 
+Screenshot of the web application in Flask: 
+<br>
 <br>
 <img src="https://i.pinimg.com/originals/33/8a/4b/338a4bfa2557ef2f89b00c43f7bf6627.jpg" width=500 align=center> <br>
 
