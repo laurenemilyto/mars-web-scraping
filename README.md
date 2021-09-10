@@ -4,11 +4,11 @@
 This project builds a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. MongoDB is used with Flask to deploy results to an HTML page.
 
 ## Technologies & Methods:
-- Scraping: 
+Scraping: <br>
 ![image](https://img.shields.io/badge/technologies-Beautiful%20Soup-blue)
 ![image](https://img.shields.io/badge/technologies-Pandas-blue)
 ![image](https://img.shields.io/badge/technologies-Splinter-blue)
-- Application: 
+Application: <br>
 ![image](https://img.shields.io/badge/technologies-MongoDB-brightgreen)
 ![image](https://img.shields.io/badge/technologies-flask-brightgreen)
 ![image](https://img.shields.io/badge/technologies-bootstrap-brightgreen)
@@ -28,7 +28,7 @@ Preview of '/scrape' function from scrape_mars.py:
 
 ## Flask App
 A screenshot of the web application in Flask: <br>
-![image](/Mission to Mars/screenshots/flask_app.png)
+![image](../Mission to Mars/screenshots/flask_app.png)
 
 ## How to Run The Application
 1. Ensure Flask is installed in the virtual environment: 'python -m pip install flask'.
