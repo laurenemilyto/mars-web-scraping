@@ -2,35 +2,38 @@
 External CSS Stylesheet
  */
 
- /* Styling for HTML elements*/
 
- /* Jumbotron */
+/* Styling for HTML elements*/
+
+
+/* Jumbotron */
+
 .jumbotron {
     background-color: black;
 }
 
-.btn {
-    color:rgb(225, 226, 226);
+#scrape-btn {
+    background-color: white;
+    color: black;
     border-color: rgb(255, 154, 71);
 }
 
+
 /* Headers */
-h1{
+
+h1 {
     color: rgb(225, 226, 226);
 }
 
-h3{
+h3 {
     font-size: 25px;
 }
 
-h4{
+h4 {
     font-size: 20px;
 }
 
-h5{
+h5 {
     font-size: 16px;
     font-weight: lighter;
 }
-
-
-

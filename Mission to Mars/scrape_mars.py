@@ -39,12 +39,16 @@ def scrape():
 
     # Suspend execution for 1 second
     time.sleep(1)
+    html = browser.html
+
 
     # Scrape page into Soup
     image_soup = bs(html,'html.parser')
 
     # Get featured image url
-    featured_image_url = image_soup.find_all("img")[1]["src"]
+    image_url1 = image_soup.find('img', class_='headerimage fade-in')['src']
+    featured_image_url = space_image_url + image_url1
+    featured_image_url
 
 ## Pandas Scraping: Mars Facts
     facts_url = 'https://galaxyfacts-mars.com/'

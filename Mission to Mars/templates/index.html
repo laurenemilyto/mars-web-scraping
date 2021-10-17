@@ -2,88 +2,88 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title> Mission to Mars</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Mission to Mars</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
 
 </head>
 
 <body>
-  <div class="container">
+    <div class="container">
 
-      <!-- Jumbotron  -->
-    <div class="jumbotron text-center">
-      <h1 class="font-weight-bold">Mission to Mars</h1>
-      <br>
-      <h6 class="btn btn-primary" href="../scrape" role="button">Scrape New Data</h6>
-    </div>
-
-      <!-- Mars News -->
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Latest Mars News</h2>
-      </div>
-      
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-sm-left">
-        <h4>{{mars_dict.news_title}}</h4>
-        <p>{{mars_dict.news_p}}</p>
-      </div>
-    </div>
-  <hr>
-  
-        <!-- JPL Image -->
-    <div class="row">
-      <div class="col-md-8">
-        <h2>Featured Mars Image</h2> 
-        </br>
-        <img class="col-md-12" src="{{mars_dict.featured_image_url}}" width="300 px" height="300 px" alt="Featured Mars Image">
-      </div>
-      <div class="col-md-4">
-        
-        <!-- Mars Facts -->
-        </br>
-        <div class="card border-0">
-          <h3 class="text-sm-left"> Mars Facts</h3>
-            <p> {{mars_dict.mars_facts|safe}} </p>
+        <!-- Jumbotron  -->
+        <div class="jumbotron text-center">
+            <h1 class="font-weight-bold">Mission to Mars</h1>
+            <br>
+            <a class="btn" id='scrape-btn' href="/scrape" role="button">Scrape New Data</a>
         </div>
-      </div>
-    </div>
-  <hr>
 
-     <!-- Mars Hemispheres -->
-    <div class="row">
-      <div class="col-md-8 offset-4">
-        <h2 class="align-items-center">Mars Hemispheres</h2>  
-      </div>
-    </div>
-    </br>
-    <div class="row">       
-            {% for i in mars_dict.hemisphere_images %} 
-              <div class="col-md-3">
-              </br>
-                    <div class="align-items-center border">
-                      <img width="200 px" height="200 px" src="{{i.img_url}}">
-                    </div>
+        <!-- Mars News -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Latest Mars News</h2>
+            </div>
 
-                    <div>
-                      <h5> {{i.title}} </h5>  
-                    </div>
-            
-              </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-sm-left">
+                <h4>{{mars_dict.news_title}}</h4>
+                <p>{{mars_dict.news_p}}</p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- JPL Image -->
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Featured Mars Image</h2>
+                </br>
+                <img class="col-md-12" src="{{mars_dict.featured_image_url}}" width="300 px" height="300 px" alt="Featured Mars Image">
+            </div>
+            <div class="col-md-4">
+
+                <!-- Mars Facts -->
+                </br>
+                <div class="card border-0">
+                    <h3 class="text-sm-left"> Mars Facts</h3>
+                    <p> {{mars_dict.mars_facts|safe}} </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Mars Hemispheres -->
+        <div class="row">
+            <div class="col-md-8 offset-4">
+                <h2 class="align-items-center">Mars Hemispheres</h2>
+            </div>
+        </div>
+        </br>
+        <div class="row">
+            {% for i in mars_dict.hemisphere_images %}
+            <div class="col-md-3">
+                </br>
+                <div class="align-items-center border">
+                    <img width="200 px" height="200 px" src="{{i.img_url}}">
+                </div>
+
+                <div>
+                    <h5> {{i.title}} </h5>
+                </div>
+
+            </div>
             {% endfor %}
-    </div> 
-  <hr>
-<!-- Boostrap Javascript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        </div>
+        <hr>
+        <!-- Boostrap Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

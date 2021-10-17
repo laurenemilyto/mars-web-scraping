@@ -22,6 +22,8 @@ def index():
 # Route to trigger the scrape function
 @app.route("/scrape")
 def scrape():
+
+    print("beginning scraping")
     
     # Define collection
     mars = mongo.db.mars
